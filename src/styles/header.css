@@ -1,0 +1,7 @@
+.dark {
+    color: purple;
+}
+
+.nav-link:not(.dark) {
+    color: rgb(176, 102, 216)
+}

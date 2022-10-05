@@ -1,0 +1,16 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+img {
+    border-radius: 50%;
+    height: 250px;
+    align-items: center;
+}
+
+h1 {
+    color: #257227
+}
