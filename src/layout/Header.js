@@ -14,7 +14,7 @@ export default function Header() {
                     <GiDogBowl className="d-inline-block align-text-top me-2"/>
                     Quinn
                 </a>
-                <button className="navbar-toggler" onClick={() => setShow(!show)}type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" onClick={() => setShow(!show)} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className={(show ? "collapse navbar-collapse show" : "collapse navbar-collapse")} id="navbarNav">
